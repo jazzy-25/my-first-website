@@ -8,10 +8,17 @@
     font-size: 20px;
     }
     .website {
-      color:purple;
-      text-decoration: none;
-      font-size: 20px;
-    }
+    color: #d8b4fe;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.website:hover {
+    color: white;
+    text-decoration: underline;
+    text-shadow: 0 0 8px #a020f0;
+}
     .profile-pic {
     width: 250px;
     max-width: 100%;
@@ -48,11 +55,14 @@
         body {
     background: linear-gradient(135deg, #0b0014, #1a0033, #000000);
     color: white;
-}
-h2 {
+        }
+   h2 {
     color: white;
-    text-shadow : 0 0 5px #6a0dad
-}
+    text-shadow: 0 0 5px #6a0dad;
+    border-bottom: 2px solid #6a0dad;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+      }
         p {
     color: #dddddd;
         }
@@ -241,11 +251,18 @@ button:hover {
 }
 
 footer {
-    background-color: white;
-    color: white;
+    background-color: #10051a;
+    color: #dddddd;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
+    border-top: 2px solid #6a0dad;
+    border-radius: 10px 10px 0 0;
+}
+      footer p {
+    color: #d8b4fe;
+    font-size: 14px;
+    margin: 8px 0;
 }
 
       .socials {
