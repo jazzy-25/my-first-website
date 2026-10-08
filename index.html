@@ -152,11 +152,42 @@ button:hover {
       }
 
 @media (max-width: 600px) {
-
     .container {
-        width: 90%;
-        margin: auto;
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
     }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 12px 5px;
+    }
+
+    .navbar a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    button {
+        max-width: 100%;
+    }
+}
 
     .navbar {
         display: flex;
@@ -189,14 +220,15 @@ footer {
 }
 
 .socials a {
-    color: black;
+    color: #d8b4fe
     text-decoration: none;
     margin-right: 15px;
     font-size: 18px;
 }
 
 .socials a:hover {
-    color: yellow;
+    color: white;
+    text-decoration: underline;
 }
       .dark-mode {
     background-color: black !important;
