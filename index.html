@@ -51,8 +51,12 @@ h2 {
       
       .container {
     max-width: 600px;
-    margin: auto;
-    padding: 20px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgba(25, 10, 40, 0.85);
+    border: 1px solid #4b2673;
+    border-radius: 15px;
+    box-sizing: border-box;
       }
       
       .website {
@@ -114,7 +118,17 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
+button:active {
+    transform: scale(0.96);
+}
+
+button:hover {
+    box-shadow: 0 0 12px #a020f0;
+}
       form {
     margin-top: 20px;
 }
